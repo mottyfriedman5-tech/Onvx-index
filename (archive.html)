@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ONVX Methodology</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ONVX methodology describing how overnight implied volatility is calculated.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container text">
+    <h1>Methodology</h1>
+
+    <p>
+        ONVX measures the overnight change in implied volatility using a fixed,
+        transparent, and repeatable process.
+    </p>
+
+    <h3>Underlying</h3>
+    <p>
+        ONVX is calculated using options on a single underlying equity index proxy.
+    </p>
+
+    <h3>Option Selection</h3>
+    <p>
+        At-the-money call and put options are selected for a fixed maturity.
+        Implied volatility is averaged across calls and puts.
+    </p>
+
+    <h3>Timing</h3>
+    <p>
+        Implied volatility is observed shortly before the market close
+        and again shortly after the market open.
+    </p>
+
+    <h3>Calculation</h3>
+    <p>
+        ONVX = Implied Volatility (Open) − Implied Volatility (Close)
+    </p>
+
+    <h3>Principles</h3>
+    <ul>
+        <li>No forecasts</li>
+        <li>No discretionary adjustments</li>
+        <li>No revisions to historical values</li>
+    </ul>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="archive.html">Archive</a>
+        <a href="about.html">About</a>
+    </nav>
+</div>
+
+</body>
+</html>
